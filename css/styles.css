@@ -1,0 +1,511 @@
+* {
+
+  margin: 0;
+  padding: 0; 
+  
+}
+
+body {
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 16px; 
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+h1, h2 {
+
+  background-color: #002663;
+  color: #e6f4f5;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 15px; 
+  font-size: 25px;
+  text-align: center; 
+
+}
+ 
+h3 {
+
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+h4 {
+
+  font-style: italic;
+
+}
+
+/* ------Estilos blockHeader----------------------------------------------*/
+
+header {
+
+  z-index: 2000; 
+  width: 100%;
+
+}
+
+.dropdown-item {
+
+    color: #e6f4f5; 
+
+}
+
+
+.blockHeader_logo {
+
+    width: 90px;
+    height: 90px; 
+}
+
+ .nav-item {
+
+    text-transform: capitalize;
+    font-size: 20px;
+  
+  }
+
+/* ------Estilos contentOne----------------------------------------------*/
+
+
+.contentOne {
+
+  padding: 25px; 
+  
+}
+
+.contentOne p {
+
+  padding: 15px; 
+  
+}
+
+.contentOne img {
+
+  width: 180px;
+  height: 200px; 
+  border-radius: 30%;
+  
+}
+
+.contentOne__ligue {
+
+  padding: 15px; 
+  text-align: center;
+
+}
+
+.contentOne__ligue:hover {
+
+  background-color: #5c6983;
+  color: white;
+
+}
+
+
+/* ------Estilos contentOne plus----------------------------------------------*/
+
+
+.contentOne_plus {
+
+  padding: 25px; 
+
+}
+
+.contentOne__plus-ligue {
+
+  border: 2px solid black;
+  text-align: center; 
+  padding: 10px;
+
+}
+
+.contentOne__plus-ligue h3 {
+
+  text-transform: uppercase;
+
+}
+   
+.contentOne__plus-ligue li {
+
+  font-weight: bold;
+  color: #002663; 
+  padding: 10px; 
+  
+}
+
+.contentOne__plus-ligue p {
+
+  color: red;
+  font-weight: bolder;
+
+}
+
+
+.contentOne__plus-ligue:hover {
+
+  background-color: #5c6983;
+  color: white;
+
+}
+
+/* ------Estilos blockFooter ------------------------------------------------*/
+
+
+
+.blockFooter {
+
+  padding: 15px;
+  align-items: center;
+  background-color: #212529;
+  color: #e6f4f5;
+
+}
+
+.blockFooter_copyright p {
+
+  text-decoration: underline;
+  font-style: oblique;
+  font-size: 18px;
+}
+
+.blockFooter_socialMedia img {
+
+  width: 30px;
+  height: 30px; 
+
+}
+
+  .blockFooter_socialMedia button:hover {
+
+  background-color: #29ec0f;
+
+}
+
+/* ------Estilos internacional cups--------------------------------------*/
+
+.inter {
+
+  padding: 25px; 
+
+}
+
+.inter_logo {
+
+  width: 150px;
+  height: 150px;
+  padding: 10px; 
+
+}
+
+.inter_carousel img {
+
+  height: 450px;
+  width: 350px;
+  border-radius: 20%;
+  padding: 10px;
+  
+}
+
+
+.inter h3 span {
+
+  background-color: grey; 
+  
+}
+
+.teamUefa_info {
+
+  padding: 25px;
+
+}
+
+.teamUefa_info li {
+
+  font-weight: bold;
+  color: #10223f;
+
+}
+
+.teamUefa_info p {
+
+  font-style: oblique;
+}
+
+.teamUefa_img {
+
+  padding: 35px;
+
+}
+.teamUefa_img img {
+
+  height: 400px;
+  width: 500px;
+  border-radius: 20%;
+
+}
+
+.teamConmebol_info {
+
+  padding: 25px;
+
+}
+
+.teamConmebol_info li {
+
+  font-weight: bold;
+  color: #062c69;
+  
+}
+
+.teamConmebol_info p {
+
+  font-style: italic; 
+  
+}
+
+.teamConmebol_img {
+
+  padding: 25px;
+
+}
+.teamConmebol_img img {
+
+  height: 500px;
+  width: 500px;
+  border-radius: 20%;
+
+}
+
+
+/* ------Estilo referente al matchresults-----------------------------------------------*/
+
+.tableResult {
+
+  padding: 25px;
+  border-bottom: 2px solid black;
+
+}
+
+.tables {
+
+  align-content: center;
+ 
+}
+
+.tableResult th {
+
+  background-color: #10223f;
+  color: white;
+  
+}
+
+.tableResult td {
+
+  background-color: #696c70;
+  color: white;
+  
+}
+
+.tableResult img {
+
+  width: 180px;
+  height: 200px; 
+  border-radius: 10%;
+  
+}
+
+.tableResult {
+
+  padding: 30px;
+  text-align: center;
+  color: #35495e;
+  font-size: 18px; 
+}
+
+
+
+/* ------Estilo referente a Transfer Market-------------------------------------------------*/
+
+.boxOne {
+
+  padding: 50px;
+  border-bottom: solid 2px black;
+  
+}
+
+.boxOne_transfer table {
+
+  width: 800px; 
+  
+}
+
+
+.boxOne_transfer th {
+
+  color: yellowgreen;
+  
+}
+
+.boxTwo {
+
+  padding: 50px;
+  align-items: center; 
+
+}
+
+.boxTwo_transfer table {
+
+  width: 400px;
+  
+}
+
+.boxTwo_transfer th {
+
+  color: yellowgreen; 
+  
+}
+
+/* ------Estilo National football team-------------------------------------------------*/
+
+.sectionUno {
+
+padding: 50px; 
+
+}
+
+.transfer {
+
+  padding: 50px;
+  
+}
+
+/* ------estilos About us-------------------------------------------------*/
+.aboutUs {
+
+  padding: 50px; 
+
+}
+.aboutUs_table {
+
+  width: 500px; 
+  
+}
+
+
+
+/*----------------Media------------------------*/
+
+
+@media only screen and  (min-width: 768px) and (max-width: 1024px) {
+
+  * {
+  overflow-x: hidden;
+
+  }
+
+  .contentOne__ligue{
+    width: 195px;
+    margin: 25px;
+
+  }
+
+  .contentOne a img {
+    width: 90px;
+    height: 90px;
+  } 
+
+  .contentOne__plus-ligue {
+
+    width: 195px;
+    margin: 25px;
+   
+  }
+  .contentOne__plus-ligue  li {
+
+   font-size: 15px;
+
+  }
+
+  .teamUefa_img img {
+
+    height: 300px;
+    width: 350px; 
+  
+  }
+
+  .teamConmebol_img img {
+
+    height: 300px;
+    width: 350px;
+  
+  }
+
+  .carousel-item img {
+
+    width: 350px;
+    height: 250px;
+
+  }
+
+  .tableResult {
+
+    color: #35495e;
+    font-size: 12px; 
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+
+  * {
+
+    overflow-x: hidden;
+  
+  }
+
+  .contentOne__plus {
+
+    padding: 25px;
+  }
+
+  .teamUefa_img img {
+
+    width: 330px;
+    height: 250px;
+    
+  }
+
+  .teamConmebol_img img {
+
+    width: 350px;
+    height: 250px;
+  
+  }
+
+  .tableResult {
+
+    color: #35495e;
+    font-size: 12px; 
+  }
+
+  .carousel-item img {
+
+    width: 350px;
+    height: 250px;
+
+  }
+ 
+  .tableResult {
+
+    border-bottom: none;
+  
+  }
+   
+}
+
+
