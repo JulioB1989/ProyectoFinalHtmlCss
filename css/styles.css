@@ -1,511 +1,411 @@
 * {
-
   margin: 0;
-  padding: 0; 
-  
+  padding: 0;
 }
 
 body {
-
-  font-family: 'Oswald', sans-serif;
-  font-weight: 16px; 
-  width: 100%;
+  font-family: "Oswald", sans-serif;
   overflow-x: hidden;
-
 }
 
-h1, h2 {
-
-  background-color: #002663;
+h1 {
+  background-color: #212529;
   color: #e6f4f5;
+  padding: 5px;
   text-align: center;
   text-transform: capitalize;
-  padding: 15px; 
-  font-size: 25px;
-  text-align: center; 
-
+  font-size: 35px;
+  font-style: oblique;
 }
- 
-h3 {
 
+h2 {
+  background-color: #002663;
+  color: #e6f4f5;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+h3 {
   text-decoration: underline;
+  text-align: center;
   font-weight: bold;
   font-size: 20px;
-
 }
 
 h4 {
-
   font-style: italic;
-
+  font-size: 18px;
 }
 
 /* ------Estilos blockHeader----------------------------------------------*/
 
 header {
-
-  z-index: 2000; 
-  width: 100%;
-
+  z-index: 2000;
 }
-
-.dropdown-item {
-
-    color: #e6f4f5; 
-
-}
-
 
 .blockHeader_logo {
-
-    width: 90px;
-    height: 90px; 
+  width: 90px;
+  height: 90px;
 }
 
- .nav-item {
-
-    text-transform: capitalize;
-    font-size: 20px;
-  
-  }
+.nav-item a {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+}
 
 /* ------Estilos contentOne----------------------------------------------*/
 
-
 .contentOne {
-
-  padding: 25px; 
-  
-}
-
-.contentOne p {
-
-  padding: 15px; 
-  
+  padding: 0px 30px 0px 30px;
 }
 
 .contentOne img {
-
   width: 180px;
-  height: 200px; 
-  border-radius: 30%;
-  
+  height: 200px;
+}
+
+.contentOne p {
+  padding: 5px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .contentOne__ligue {
-
-  padding: 15px; 
+  padding: 10px;
   text-align: center;
-
 }
-
-.contentOne__ligue:hover {
-
-  background-color: #5c6983;
-  color: white;
-
-}
-
 
 /* ------Estilos contentOne plus----------------------------------------------*/
 
-
 .contentOne_plus {
-
-  padding: 25px; 
-
+  padding: 0px 30px 0px 30px;
 }
 
 .contentOne__plus-ligue {
-
-  border: 2px solid black;
-  text-align: center; 
   padding: 10px;
-
 }
 
 .contentOne__plus-ligue h3 {
-
   text-transform: uppercase;
-
 }
-   
+
 .contentOne__plus-ligue li {
-
   font-weight: bold;
-  color: #002663; 
-  padding: 10px; 
-  
+  color: #002663;
+  padding: 10px;
 }
 
-.contentOne__plus-ligue p {
-
-  color: red;
-  font-weight: bolder;
-
-}
-
-
-.contentOne__plus-ligue:hover {
-
-  background-color: #5c6983;
-  color: white;
-
+.contentOne__plus-ligue img {
+  width: 45px;
+  height: 55px;
 }
 
 /* ------Estilos blockFooter ------------------------------------------------*/
 
-
-
 .blockFooter {
-
   padding: 15px;
   align-items: center;
   background-color: #212529;
   color: #e6f4f5;
-
 }
 
 .blockFooter_copyright p {
-
   text-decoration: underline;
   font-style: oblique;
   font-size: 18px;
 }
 
 .blockFooter_socialMedia img {
-
   width: 30px;
-  height: 30px; 
-
+  height: 30px;
 }
 
-  .blockFooter_socialMedia button:hover {
-
+.blockFooter_socialMedia button:hover {
   background-color: #29ec0f;
-
 }
 
 /* ------Estilos internacional cups--------------------------------------*/
 
 .inter {
+  padding: 0px 30px 0px 30px;
+}
 
-  padding: 25px; 
-
+.inter_cup {
+  text-align: center;
+  font-weight: bold;
 }
 
 .inter_logo {
-
   width: 150px;
   height: 150px;
-  padding: 10px; 
+  padding: 10px;
+}
 
+.inter_gallery {
+  padding: 0px 30px 0px 30px;
 }
 
 .inter_carousel img {
-
-  height: 450px;
-  width: 350px;
-  border-radius: 20%;
-  padding: 10px;
-  
+  height: 550px;
+  padding: 30px;
 }
 
-
-.inter h3 span {
-
-  background-color: grey; 
-  
-}
-
-.teamUefa_info {
-
-  padding: 25px;
-
+.teamUefa {
+  padding: 0px 30px 0px 30px;
 }
 
 .teamUefa_info li {
-
   font-weight: bold;
   color: #10223f;
-
 }
 
 .teamUefa_info p {
-
   font-style: oblique;
 }
 
-.teamUefa_img {
-
-  padding: 35px;
-
-}
-.teamUefa_img img {
-
+.teamUefa_media video {
   height: 400px;
-  width: 500px;
-  border-radius: 20%;
-
+  width: 600px;
 }
 
-.teamConmebol_info {
-
-  padding: 25px;
-
+.teamConmebol {
+  padding: 0px 30px 0px 30px;
 }
 
 .teamConmebol_info li {
-
   font-weight: bold;
   color: #062c69;
-  
 }
 
 .teamConmebol_info p {
-
-  font-style: italic; 
-  
+  font-style: italic;
 }
 
-.teamConmebol_img {
-
-  padding: 25px;
-
+.teamConmebol_media video {
+  height: 350px;
+  width: 600px;
 }
-.teamConmebol_img img {
-
-  height: 500px;
-  width: 500px;
-  border-radius: 20%;
-
-}
-
 
 /* ------Estilo referente al matchresults-----------------------------------------------*/
 
-.tableResult {
-
-  padding: 25px;
-  border-bottom: 2px solid black;
-
+.tables {
+  padding: 10px 30px 0px 30px;
 }
 
-.tables {
-
-  align-content: center;
- 
+.tableResult {
+  border-bottom: 2px solid black;
+  text-align: center;
+  color: #35495e;
+  font-size: 18px;
 }
 
 .tableResult th {
-
   background-color: #10223f;
   color: white;
-  
 }
 
 .tableResult td {
-
   background-color: #696c70;
   color: white;
-  
 }
 
 .tableResult img {
-
-  width: 180px;
-  height: 200px; 
-  border-radius: 10%;
-  
+  width: 110px;
+  height: 150px;
 }
-
-.tableResult {
-
-  padding: 30px;
-  text-align: center;
-  color: #35495e;
-  font-size: 18px; 
-}
-
-
 
 /* ------Estilo referente a Transfer Market-------------------------------------------------*/
 
 .boxOne {
-
-  padding: 50px;
+  padding: 0px 30px 0px 30px;
   border-bottom: solid 2px black;
-  
 }
 
-.boxOne_transfer table {
-
-  width: 800px; 
-  
+.boxOne_transfer {
+  padding: 15px 300px 0 300px;
 }
-
 
 .boxOne_transfer th {
-
   color: yellowgreen;
-  
 }
 
-.boxTwo {
-
-  padding: 50px;
-  align-items: center; 
-
-}
-
-.boxTwo_transfer table {
-
-  width: 400px;
-  
-}
-
-.boxTwo_transfer th {
-
-  color: yellowgreen; 
-  
-}
-
-/* ------Estilo National football team-------------------------------------------------*/
+/* ------Estilo National football teams-------------------------------------------------*/
 
 .sectionUno {
-
-padding: 50px; 
-
+  padding: 0px 30px 0px 30px;
 }
 
 .transfer {
+  padding: 0 200px 100px 200px;
+}
 
-  padding: 50px;
-  
+.transfer th {
+  color: yellowgreen;
 }
 
 /* ------estilos About us-------------------------------------------------*/
+
 .aboutUs {
-
-  padding: 50px; 
-
+  padding: 0px 30px 0px 30px;
 }
+
 .aboutUs_table {
-
-  width: 500px; 
-  
+  width: 500px;
 }
 
+.aboutUs_form {
+  padding-bottom: 100px;
+}
 
+/*----------------Media 768px and 1024px------------------------*/
 
-/*----------------Media------------------------*/
-
-
-@media only screen and  (min-width: 768px) and (max-width: 1024px) {
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   * {
-  overflow-x: hidden;
-
+    overflow-x: hidden;
   }
 
-  .contentOne__ligue{
-    width: 195px;
-    margin: 25px;
-
+  body {
+    margin-top: 116px;
+    margin-bottom: 100px;
   }
 
-  .contentOne a img {
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .contentOne {
+    font-size: 14px;
+  }
+
+  .contentOne img {
     width: 90px;
     height: 90px;
-  } 
-
-  .contentOne__plus-ligue {
-
-    width: 195px;
-    margin: 25px;
-   
-  }
-  .contentOne__plus-ligue  li {
-
-   font-size: 15px;
-
   }
 
-  .teamUefa_img img {
-
-    height: 300px;
-    width: 350px; 
-  
+  .contentOne__plus-ligue h3 {
+    text-align: center;
   }
 
-  .teamConmebol_img img {
+  .contentOne__plus-ligue li {
+    font-size: 12px;
+  }
 
-    height: 300px;
-    width: 350px;
-  
+  .contentOne__plus-ligue img {
+    width: 25px;
+    height: 30px;
+  }
+
+  .inter_cup {
+    text-align: center;
+    font-weight: bold;
   }
 
   .carousel-item img {
+    height: 400px;
+  }
 
-    width: 350px;
+  .teamUefa_media video {
     height: 250px;
+    width: 350px;
+  }
 
+  .teamConmebol_media video {
+    height: 250px;
+    width: 350px;
   }
 
   .tableResult {
-
     color: #35495e;
-    font-size: 12px; 
+    font-size: 12px;
+  }
+
+  .boxOne_transfer {
+    padding: 20px 70px 20px 70px;
+  }
+
+  .transfer {
+    padding: 20px 80px 20px 80px;
+  }
+
+  .blockFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2000;
   }
 }
 
+/*----------------Media 600px------------------------*/
 
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width: 600px) {
   * {
-
     overflow-x: hidden;
-  
+  }
+
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  body {
+    margin-top: 116px;
   }
 
   .contentOne__plus {
-
     padding: 25px;
   }
 
-  .teamUefa_img img {
-
-    width: 330px;
-    height: 250px;
-    
-  }
-
-  .teamConmebol_img img {
-
-    width: 350px;
-    height: 250px;
-  
-  }
-
-  .tableResult {
-
-    color: #35495e;
-    font-size: 12px; 
+  .inter_cup {
+    text-align: center;
+    font-weight: bold;
   }
 
   .carousel-item img {
-
-    width: 350px;
-    height: 250px;
-
+    height: 280px;
   }
- 
+
+  .teamUefa_media video {
+    height: 230px;
+    width: 300px;
+    padding: 10px, 23px 10px 20px;
+  }
+
+  .teamConmebol {
+    padding-bottom: 25px;
+  }
+
+  .teamConmebol_media video {
+    height: 190px;
+    width: 300px;
+    padding: 10px, 20px 10px 20px;
+  }
+
   .tableResult {
-
-    border-bottom: none;
-  
+    color: #35495e;
+    font-size: 12px;
   }
-   
+
+  .tableResult {
+    border-bottom: none;
+  }
+
+  .boxOne_transfer {
+    padding: 15px 15px 10px 15px;
+  }
+
+  .transfer {
+    padding: 15px 20px 10px 20px;
+  }
+
+  .aboutUs_form {
+    padding-bottom: 20px;
+  }
 }
-
-
